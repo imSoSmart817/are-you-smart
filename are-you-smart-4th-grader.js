@@ -1,5 +1,8 @@
 function smart (){
   var text = prompt("who are you");
+  if(text == "null" || text == null || text == "" ){
+    return;
+  }
   alert ("hey " + text);
   var answer = prompt("do you want to know if you are smart ?");
   if (answer == "yes") {
@@ -18,6 +21,6 @@ function smart (){
   } else {
     alert("Have a nice day!");
   }
-};
+}
 
 smart();
