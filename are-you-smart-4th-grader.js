@@ -1,3 +1,4 @@
+function smart (){
   var text = prompt("who are you");
   alert ("hey " + text);
   var answer = prompt("do you want to know if you are smart ?");
@@ -17,3 +18,4 @@
   } else {
     alert("Have a nice day!");
   }
+};
