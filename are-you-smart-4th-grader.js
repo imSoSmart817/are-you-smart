@@ -19,3 +19,5 @@ function smart (){
     alert("Have a nice day!");
   }
 };
+
+smart();
