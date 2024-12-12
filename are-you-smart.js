@@ -1,6 +1,6 @@
 function smart (){
   var text = prompt("who are you");
-  if(text == "null" || text == null || text == "" ){
+  if(text === "null" || text == null || text == "" ){
     return;
   }
   alert ("hey " + text);
